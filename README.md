@@ -1,11 +1,12 @@
 # MidnightShift
 PIGsquad Summer Slow Jams #2
 
-Team:
-Alex Schiff,
+# Team:
 
-Seth Gordon,
+Alex Schiff
 
-Susan,
+Seth Gordon
+
+Susan
 
 Warren Degenhardt
