@@ -34,7 +34,8 @@
     "IDEVersion": "2023.6.0.89",
   },
   "resources": [
-    {"id":{"name":"Register","path":"sprites/Register/Register.yy",},},
+    {"id":{"name":"Register_spritesheet","path":"sprites/Register_spritesheet/Register_spritesheet.yy",},},
+    {"id":{"name":"Register_large_static1","path":"sprites/Register_large_static1/Register_large_static1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
