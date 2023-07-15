@@ -34,8 +34,10 @@
     "IDEVersion": "2023.6.0.89",
   },
   "resources": [
+    {"id":{"name":"clock_spritesheet","path":"sprites/clock_spritesheet/clock_spritesheet.yy",},},
     {"id":{"name":"Register_spritesheet","path":"sprites/Register_spritesheet/Register_spritesheet.yy",},},
     {"id":{"name":"Register_large_static1","path":"sprites/Register_large_static1/Register_large_static1.yy",},},
+    {"id":{"name":"Store_background","path":"sprites/Store_background/Store_background.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

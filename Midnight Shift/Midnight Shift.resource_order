@@ -17,7 +17,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"clock_spritesheet","order":3,"path":"sprites/clock_spritesheet/clock_spritesheet.yy",},
     {"name":"Register_spritesheet","order":2,"path":"sprites/Register_spritesheet/Register_spritesheet.yy",},
     {"name":"Register_large_static1","order":1,"path":"sprites/Register_large_static1/Register_large_static1.yy",},
+    {"name":"Store_background","order":6,"path":"sprites/Store_background/Store_background.yy",},
   ],
 }
