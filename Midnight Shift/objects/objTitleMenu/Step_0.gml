@@ -1,7 +1,9 @@
 //get inputs from keyboard   -- I'll implement mouse later, I prefer mouse, but this tutorial does this
 upKey = keyboard_check_pressed(vk_up);
 downKey = keyboard_check_pressed(vk_down);
-acceptKey = keyboard_check_pressed(vk_space);
+
+//UNCOMMENT THIS--------------------------
+//acceptKey = keyboard_check_pressed(vk_space);
 
 //store number of options in current menu
 opLength = array_length(option[opLevel]);
