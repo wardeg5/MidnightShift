@@ -4,7 +4,7 @@ function scrSetDefaultsForText(){
 	lineBreakNumber[pageNumber] = 0;
 	lineBreakOffset[pageNumber] = 0;
 	
-	tbSprite[pageNumber] = sTextBox1;
+	tbSprite[pageNumber] = sTextBox3;
 	speakerSprite[pageNumber] = noone;
 	speakerSide[pageNumber] = 1;
 	
