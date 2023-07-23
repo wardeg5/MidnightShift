@@ -1,14 +1,14 @@
-depth = -999;
+depth = 4;
 
 
 //textbox parameters
 tbWidth = 320;
-tbHeight = 120;
+tbHeight = 48;
 tbBorder = 8;
 lineSep = 16;
 lineWidth = tbWidth - tbBorder*2;
 
-tbSprite[0] = sTextBox1;
+tbSprite[0] = sTextBox3;
 tbImage = 0;
 tbImageSpeed = 6/60;
 
@@ -43,6 +43,7 @@ setup = false;
 sndDelay = 4;
 sndCount = sndDelay;
 
+global.playMusic = true;
 
 
 
