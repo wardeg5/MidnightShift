@@ -136,12 +136,17 @@ function scrGameText(_textId){
 			
 			break;
 		case ("cust1 neg2"):
-			scrText("I killed women and children in Vietnam to stop the spread of communism, kid", "cust1");	
+			scrText("I fought them over there so you don't fight them over here, kid", "cust1");	
 			scrText("You should be thanking me", "cust1");
 			scrText("Hurry it up", "cust1");
 			
 			break
-			
+
+		case ("cust1 goodbye"):
+            scrText("brrrrrp", "cust1");
+            scrText("Have a good'ne", "cust1");
+            global.nextState = "rad2";
+            break;
 			
 		//CUSTOMER 2
 		case ("cust2"):
@@ -152,7 +157,7 @@ function scrGameText(_textId){
 			scrOption("Uh... don't worry about it", "cust2 neg1");
 			scrOption("God I hope so", "cust2 neu1");
 			break;
-		case ("cust1 pos1"):
+		case ("cust2 pos1"):
 			scrText("YEAAAAAAAAAHHHH!! WE'RE JUST GONNA NUKE EM.", "cust2");	
 			scrText("I'M NOT AFRAID TO DIE FOR MY COUNTRY", "cust2");
 			scrText("THE TREE OF LIBERTY GOTTA BE WATERED WITH THE BLOOD OF PATRIOTS", "cust2");
@@ -183,7 +188,43 @@ function scrGameText(_textId){
 			
 			break
 			
+		
 			
+		//CUSTOMER 3
+		case ("cust3"):
+			scrText("What's up dude", "cust3");
+			//scrText("Yeeeup");
+			//scrText("Fuggin Russia");
+			scrOption("How's it going?","cust3 pos1");
+			scrOption("Are you going to pay for that?", "cust3 neg1");
+			scrOption("Not much", "cust3 neu1");
+			break;
+		case ("cust3 pos1"):
+			scrText("Radical! Totally gnarly!", "cust3");	
+
+			break;
+		case ("cust3 neg1"):
+			scrText("Eat my shorts!", "cust3");	
+				scrOption("Eh, take it. It's free","cust3 pos2");
+				scrOption("I'm gonna call the cops once you leave", "cust3 neg2");
+				scrOption("Why should I care, we're all going to die", "cust3 neu1");
+			
+			break;
+		case ("cust3 neu1"):
+			scrText("Exactly. Later, ya narbo barf bag", "cust3");	
+			
+			break;
+		case ("cust3 pos2"):
+			scrText("Hell Yeah!! Punk rock!!", "cust3");		
+
+			
+			break;
+		case ("cust3 neg2"):
+			scrText("Boot licker NARC!! ", "cust3");	
+			
+			break
+		
+		
 			
 			
 		//CUSTOMER 4
@@ -210,7 +251,7 @@ function scrGameText(_textId){
 			break;
 		case ("cust4 neu1"):
 			scrText("the nuclear blasts will be heard through space", "cust4");	
-			scrText("Alens will come to earth to help rebuild our world", "cust4");
+			scrText("Aliens will come to earth to help rebuild our world", "cust4");
 			scrText("According to Argentinian philosopher J. Posadas, the aliens will be communist", "cust4");
 			scrText("he believes the aliens must be communist", "cust4");
 			scrText("because in no other way can they have achieved such highly developed technology", "cust4");	
@@ -220,13 +261,87 @@ function scrGameText(_textId){
 		case ("cust4 pos2"):
 			scrText("Well for one, they poop out of where you'd think their eyes would be", "cust4");	
 			scrText("Also, they have nothing... down there... *motions hands*", "cust4");	
-			scrText("I wish they did though", "cust4");
+			scrText("I wish they did, though", "cust4");
 			
 			break;
 		case ("cust4 neg2"):
 			scrText("That's what everyone else says", "cust4");	
 			scrText("They'll be sorry", "cust4");
-			
 			break
+			
+		//CUSTOMER 5
+		case ("cust5"):
+			scrText("Hello youngster", "cust5");
+			//scrText("Yeeeup");
+			//scrText("Fuggin Russia");
+			scrOption("Good evening ma'am","cust5 pos1");
+			scrOption("What's up, you old bag?!", "cust5 neg1");
+			scrOption("Hi", "cust5 neu1");
+			break;
+		case ("cust5 pos1"):
+			scrText("Aren't you nice. Young people these days have no manners", "cust5");	
+
+			break;
+		case ("cust5 neg1"):
+			scrText("*gasps* How rude! Apologize!", "cust5");	
+				scrOption("Sorry ma'am","cust5 pos2");
+				scrOption("No!! You're DUSTY and OLD!", "cust5 neg2");
+				scrOption("Ok, I'm sorry", "cust5 neu1");
+			
+			break;
+		case ("cust5 neu1"):
+			scrText("hmph", "cust5");	
+			
+			break;
+		case ("cust5 pos2"):
+			scrText("I suppose I can forgive you", "cust5");		
+
+			
+			break;
+		case ("cust5 neg2"):
+			scrText("I ought to hit you with my shoe!", "cust5");	
+			
+			break			
+
+		//CUSTOMER 6
+		case ("cust6"):
+			scrText("What's up? What's happenin'?", "cust6");
+			//scrText("Yeeeup");
+			//scrText("Fuggin Russia");
+			scrOption("Just another great day at work!","cust6 pos1");
+			scrOption("We were all supposed to evacuate hours ago", "cust6 neg1");
+			scrOption("You haven't heard about the bombings? We're next", "cust6 neu1");
+			break;
+		case ("cust6 pos1"):
+			scrText("Yeah! That's what I'm talking about baby", "cust6");	
+			scrText("Staying positive, nothing gonna hold us back", "cust6");
+			scrText("Everyone's so negative, but look at us", "cust6");
+			scrText("Ahh I know this night's gonna be great man", "cust6");
+			scrText("I feel invincible!", "cust6");
+			
+			break;
+		case ("cust6 neg1"):
+			scrText("For real? Then why are you still working here?!?!", "cust6");	
+				scrOption("I guess I really love working","cust6 pos2");
+				scrOption("I lost track of time", "cust6 neg2");
+				scrOption("I... Don't know", "cust6 neu1");
+			
+			break;
+		case ("cust6 neu1"):
+			scrText("You're stupid as hell. I guess I am too, though.", "cust6");	
+			scrText("At least we don't have to die alone", "cust6");
+
+			break;
+		case ("cust6 pos2"):
+			scrText("Man, what the hell is wrong with you?", "cust6");		
+			scrText("You gotta re-examine your life", "cust6");	
+			scrText("I'm out of here. I gotta find my family", "cust6");	
+			
+			break;
+		case ("cust6 neg2"):
+			scrText("Well, the clock says it's midnight.", "cust6");	
+			
+			break	
+			
 	}
 }
