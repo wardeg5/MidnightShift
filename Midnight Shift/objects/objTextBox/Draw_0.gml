@@ -213,10 +213,10 @@ if(!audio_is_playing(sndDoorChime) && !audio_is_playing(sndAMOut) && !audio_is_p
 		}
 	
 		//draw the speaker
-		show_debug_message("_speakerX + 50");
-		show_debug_message(_speakerX + 50);
-		show_debug_message("tbY - 265");
-		show_debug_message(tbY -265);
+		//show_debug_message("_speakerX + 50");
+		//show_debug_message(_speakerX + 50);
+		//show_debug_message("tbY - 265");
+		//show_debug_message(tbY -265);
 		
 		//draw_sprite_ext(tbSprite[page], tbImage, tbX + portraitXOffset[page], tbY, sprite_width/tbSpriteW * 1, sprite_height/tbSpriteH * 1, 0, c_white,0.9);
 		draw_sprite_ext(sprite_index, image_index, _speakerX + 50, tbY -265, speakerSide[page] * 1,1,0,c_white,1);
