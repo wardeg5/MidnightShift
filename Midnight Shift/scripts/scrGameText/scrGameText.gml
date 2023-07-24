@@ -141,10 +141,10 @@ function scrGameText(_textId){
 			scrText("Hurry it up", "cust1");
 			
 			break
-			case ("cust1 goodbye"):
 
-            scrText("brrrrrp");
-            scrText("Have a good'ne");
+		case ("cust1 goodbye"):
+            scrText("brrrrrp", "cust1");
+            scrText("Have a good'ne", "cust1");
             global.nextState = "rad2";
             break;
 			
