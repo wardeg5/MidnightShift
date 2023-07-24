@@ -141,5 +141,46 @@ function scrGameText(_textId){
 			scrText("Hurry it up", "cust1");
 			
 			break
+			
+			
+		//CUSTOMER 2
+		case ("cust2"):
+			scrText("DID HE JUST SAY THE COMMIES ARE GOING TO DROP A NUKULAR BOMB!?!?!", "cust2");
+			//scrText("Yeeeup");
+			//scrText("Fuggin Russia");
+			scrOption("NOT IF WE NUKE THEM FIRST","cust2 pos1");
+			scrOption("Uh... don't worry about it", "cust2 neg1");
+			scrOption("God I hope so", "cust2 neu1");
+			break;
+		case ("cust1 pos1"):
+			scrText("YEAAAAAAAAAHHHH!! WE'RE JUST GONNA NUKE EM.", "cust2");	
+			scrText("I'M NOT AFRAID TO DIE FOR MY COUNTRY", "cust2");
+			scrText("THE TREE OF LIBERTY GOTTA BE WATERED WITH THE BLOOD OF PATRIOTS", "cust2");
+			scrText("ALSO, WE'RE GONNA NUKE THE WHALES AFTER WE'RE DONE WITH THE RUSKIES!!", "cust2");
+			
+			break;
+		case ("cust2 neg1"):
+			scrText("OHHH LOOKS LIKE I BROKE UP THE SECRET COMMIE SPY MEETING HUH. OK FINE, ENJOY HELL", "cust2");	
+				scrOption("I'm actually spying on him for the government","cust2 pos2");
+				scrOption("I'm already there, I think", "cust2 neg2");
+				scrOption("Sorry", "cust2 neu1");
+			
+			break;
+		case ("cust2 neu1"):
+			scrText("WHATEVER JUST RING ME UP I GOTTA GO HOME AND CATCH WRESTLEMANIA", "cust2");	
+			
+			break;
+		case ("cust2 pos2"):
+			scrText("REALLY?? GAWD BLESS", "cust2");	
+			scrText("YOU NEVER KNOW WHO COULD BE A COMMIE", "cust2");	
+
+			
+			break;
+		case ("cust2 neg2"):
+			scrText("OH YOU THINK YOU'RE SO CLEVER HUH.", "cust2");	
+			scrText("WELL IT'S GONNA BE REAL FUNNY WHEN THE RUSSIANS INVADE AND OUTLAW MCDONALDS", "cust2");
+			scrText("THAT'S RIGHT, WHOSE LAUGHING NOW??", "cust2");
+			
+			break
 	}
 }
