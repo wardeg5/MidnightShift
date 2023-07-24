@@ -177,9 +177,55 @@ function scrGameText(_textId){
 			
 			break;
 		case ("cust2 neg2"):
-			scrText("OH YOU THINK YOU'RE SO CLEVER HUH.", "cust2");	
+			scrText("OH YOU THINK YOU'RE SO CLEVER HUH?", "cust2");	
 			scrText("WELL IT'S GONNA BE REAL FUNNY WHEN THE RUSSIANS INVADE AND OUTLAW MCDONALDS", "cust2");
 			scrText("THAT'S RIGHT, WHOSE LAUGHING NOW??", "cust2");
+			
+			break
+			
+			
+			
+			
+		//CUSTOMER 4
+		case ("cust4"):
+			scrText("Well, the aliens are finally going to arrive when the bombs drop", "cust4");
+			//scrText("Yeeeup");
+			//scrText("Fuggin Russia");
+			scrOption("I always knew this day would come","cust4 pos1");
+			scrOption("Aliens aren't real", "cust4 neg1");
+			scrOption("Why?", "cust4 neu1");
+			break;
+		case ("cust1 pos1"):
+			scrText("Yes, the day of ascension is here", "cust4");	
+			scrText("All of humanity will be united when the aliens are summoned by nuclear war", "cust4");
+			scrText("I can't wait to be a being of pure light", "cust4");
+			
+			break;
+		case ("cust2 neg1"):
+			scrText("Yes they are! I've studied thousands of UFO encounters", "cust4");	
+				scrOption("What do the aliens look like?","cust4 pos2");
+				scrOption("You're crazy", "cust4 neg2");
+				scrOption("What do aliens have to do with nukes?", "cust4 neu1");
+			
+			break;
+		case ("cust2 neu1"):
+			scrText("the nuclear blasts will be heard through space", "cust4");	
+			scrText("Alens will come to earth to help rebuild our world", "cust4");
+			scrText("According to Argentinian philosopher J. Posadas, the aliens will be communist", "cust4");
+			scrText("he believes the aliens must be communist", "cust4");
+			scrText("because in no other way can they have achieved such highly developed technology", "cust4");	
+			
+			
+			break;
+		case ("cust2 pos2"):
+			scrText("Well for one, they poop out of where you'd think their eyes would be", "cust4");	
+			scrText("Also, they have nothing... down there... *motions hands*", "cust4");	
+			scrText("I wish they did though", "cust4");
+			
+			break;
+		case ("cust2 neg2"):
+			scrText("That's what everyone else says", "cust4");	
+			scrText("They'll be sorry", "cust4");
 			
 			break
 	}
