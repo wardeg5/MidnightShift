@@ -1,29 +1,59 @@
 
 if(position_meeting(mouse_x,mouse_y, id) && mouse_check_button_pressed(mb_left)){
-	show_debug_message("Pressed: +");
-	registerClick();
+	if(global.curState == "cust1" || global.curState == "cust2" || global.curState == "cust3" || global.curState == "cust4" || global.curState == "cust5" || global.curState == "cust6"){
+		show_debug_message("Pressed: +");
+		registerClick();
 	
-	global.targetPrice = string_concat("$", global.itemPrice[global.custItems[global.curItem]]);
-	show_debug_message("target price");
-	show_debug_message(global.targetPrice);
-	show_debug_message("screen");
-	show_debug_message(global.screen);
-	if(global.screen == global.targetPrice){
-		global.regIndex = 11;
+		global.targetPrice = string_concat("$", global.itemPrice[global.custItems[global.curItem]]);
+	
+		if(global.screen == global.targetPrice){
+			global.regIndex = 11;
 		
-		if(global.custItems[global.curItem + 1] != -1){
-			global.curItem ++; 	
-		} else{
-			//THIS CUSTOMER IS DONE
-			//Trigger the goodbye text,
-			room_goto(rYouWon);
-			//switch to the next rad
+			show_debug_message("custItems cur item");
+			show_debug_message(global.custItems[global.curItem]);
+			show_debug_message("curItem");
+			show_debug_message(global.curItem);
+			show_debug_message("global.custItems length");
+			show_debug_message(array_length(global.custItems));
+			if( global.curItem < array_length(global.custItems) - 1){
+				show_debug_message("GOT THROUGH");
+				global.curItem ++; 	
+				global.screen = "$";
+			} else{
+				//THIS CUSTOMER IS DONE
+				//Trigger the goodbye text,
+				global.screen = "$";
 			
-			//probably make a switch
+				//room_goto(rYouWon);
+				//switch to the next rad
+			
+				//probably make a switch
+			
+				switch(global.curState){
+					case("cust1"):
+						createTextBox("cust1 goodbye");
+						break;
+					case("cust2"):
+				
+						break;
+					case("cust3"):
+				
+						break;
+					case("cust4"):
+				
+						break;
+					case("cust5"):
+				
+						break;
+					case("cust6"):
+				
+						break;
+				}
+			}
+		} else{
+			registerError();
+			global.curItem = 0;
 		}
-	} else{
-		registerError();
-		global.curItem = 0;
 	}
 	
 	

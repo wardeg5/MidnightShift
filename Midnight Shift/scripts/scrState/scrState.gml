@@ -4,6 +4,13 @@ function stateChange(){
 	_state = global.nextState;
 	
 	switch(_state){
+		
+		case("idle"):
+			
+			global.nextState = "";
+			global.curState = "idle";
+		
+			break;
 		case("answering machine"):
 			
 			global.nextState = "";
@@ -24,17 +31,17 @@ function stateChange(){
 			createTextBox("cust1");
 			setCustomerItemList(1);
 			
-			show_debug_message("Just Set Customer Item List");
-			show_debug_message(global.custItems[0]);
-			show_debug_message(global.custItems[1]);
+			//show_debug_message("Just Set Customer Item List");
+			//show_debug_message(global.custItems[0]);
+			//show_debug_message(global.custItems[1]);
 		
 			break;	
 			
 		case("rad2"):
-			
+			show_debug_message("RAD2");
 			global.nextState = "";
 			global.curState = "rad2";
-		
+			createTextBox("rad2");
 			break;	
 			
 		case("cust2"):

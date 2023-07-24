@@ -15,7 +15,7 @@ function scrGameText(_textId){
 			//scrText("that this could be the end of the Eastern Bloc's system of alliances.");
 			//scrText("...");
 			
-			
+			global.nextState = "idle";
 			
 			
 			
@@ -142,6 +142,12 @@ function scrGameText(_textId){
 			
 			break
 			
+		case ("cust1 goodbye"):
+		
+			scrText("brrrrrp", "cust1");
+			scrText("Have a good'ne", "cust1");
+			global.nextState = "rad2";
+			break;
 			
 		//CUSTOMER 2
 		case ("cust2"):
@@ -152,7 +158,7 @@ function scrGameText(_textId){
 			scrOption("Uh... don't worry about it", "cust2 neg1");
 			scrOption("God I hope so", "cust2 neu1");
 			break;
-		case ("cust1 pos1"):
+		case ("cust2 pos1"):
 			scrText("YEAAAAAAAAAHHHH!! WE'RE JUST GONNA NUKE EM.", "cust2");	
 			scrText("I'M NOT AFRAID TO DIE FOR MY COUNTRY", "cust2");
 			scrText("THE TREE OF LIBERTY GOTTA BE WATERED WITH THE BLOOD OF PATRIOTS", "cust2");
