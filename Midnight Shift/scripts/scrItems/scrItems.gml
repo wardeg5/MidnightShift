@@ -1,6 +1,7 @@
 
 function initItems(){
-	
+	//UNCOMMENT THIS FOR RANDOM VALUES ON EACH PLAY THROUGH
+	//randomize(); 
 	show_debug_message("INIT ITEMS");
 	
 	global.itemName[0] = "Bologna";
@@ -46,6 +47,7 @@ function initItems(){
 function setCustomerItemList(_cust){
 	
 	show_debug_message("SET CUSTOMER ITEM LIST");
+	global.curItem = 0;
 	
 	//clear out custItems array as good as I think I can for now
 	for(var i = 0; i < array_length(global.custItems) ; i++){

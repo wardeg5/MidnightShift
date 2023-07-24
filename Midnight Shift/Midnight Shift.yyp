@@ -49,7 +49,7 @@
     {"id":{"name":"sRedScreen","path":"sprites/sRedScreen/sRedScreen.yy",},},
     {"id":{"name":"sTextBox3","path":"sprites/sTextBox3/sTextBox3.yy",},},
     {"id":{"name":"sGoHome","path":"sprites/sGoHome/sGoHome.yy",},},
-    {"id":{"name":"clock_spritesheet","path":"sprites/clock_spritesheet/clock_spritesheet.yy",},},
+    {"id":{"name":"sClock","path":"sprites/sClock/sClock.yy",},},
     {"id":{"name":"objSettings","path":"objects/objSettings/objSettings.yy",},},
     {"id":{"name":"sNuke","path":"sprites/sNuke/sNuke.yy",},},
     {"id":{"name":"sndOooItsALady","path":"sounds/sndOooItsALady/sndOooItsALady.yy",},},

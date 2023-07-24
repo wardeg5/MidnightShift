@@ -29,7 +29,7 @@
     {"name":"sRedScreen","order":7,"path":"sprites/sRedScreen/sRedScreen.yy",},
     {"name":"sTextBox3","order":9,"path":"sprites/sTextBox3/sTextBox3.yy",},
     {"name":"sGoHome","order":14,"path":"sprites/sGoHome/sGoHome.yy",},
-    {"name":"clock_spritesheet","order":2,"path":"sprites/clock_spritesheet/clock_spritesheet.yy",},
+    {"name":"sClock","order":2,"path":"sprites/sClock/sClock.yy",},
     {"name":"objSettings","order":1,"path":"objects/objSettings/objSettings.yy",},
     {"name":"sNuke","order":1,"path":"sprites/sNuke/sNuke.yy",},
     {"name":"sCust5","order":6,"path":"sprites/sCust5/sCust5.yy",},

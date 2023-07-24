@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objClock",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "clock_spritesheet",
-    "path": "sprites/clock_spritesheet/clock_spritesheet.yy",
+    "name": "sClock",
+    "path": "sprites/sClock/sClock.yy",
   },
   "spriteMaskId": null,
   "visible": true,

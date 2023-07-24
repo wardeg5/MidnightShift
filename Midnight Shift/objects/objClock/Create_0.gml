@@ -1,0 +1,1 @@
+global.clockFrame = 0;

@@ -26,6 +26,14 @@ function scrText(_text){
 	if(argument_count > 1){
 		
 		switch(argument[1]){
+			case "rad":
+				//speakerSprite[pageNumber] = ;
+				
+				//tbSprite[pageNumber] = sTextBox2;
+				
+				voice[pageNumber] = sndCustTalk1;
+				break;
+				
 			
 			case "cust1":
 				speakerSprite[pageNumber] = sCust1;
@@ -36,9 +44,41 @@ function scrText(_text){
 				break;
 				
 			case "cust2":
-				speakerSprite[pageNumber] = sDraugur2;
+				speakerSprite[pageNumber] = sCust2;
 				
-				tbSprite[pageNumber] = sTextBox1;
+				tbSprite[pageNumber] = sTextBox2;
+				
+				voice[pageNumber] = sndCustTalk1;
+				break;
+				
+			case "cust3":
+				speakerSprite[pageNumber] = sCust3;
+				
+				tbSprite[pageNumber] = sTextBox2;
+				
+				voice[pageNumber] = sndCustTalk1;
+				break;
+				
+			case "cust4":
+				speakerSprite[pageNumber] = sCust4;
+				
+				tbSprite[pageNumber] = sTextBox2;
+				
+				voice[pageNumber] = sndCustTalk1;
+				break;
+				
+			case "cust5":
+				speakerSprite[pageNumber] = sCust5;
+				
+				tbSprite[pageNumber] = sTextBox2;
+				
+				voice[pageNumber] = sndCustTalk1;
+				break;
+				
+			case "cust6":
+				speakerSprite[pageNumber] = sCust6;
+				
+				tbSprite[pageNumber] = sTextBox2;
 				
 				voice[pageNumber] = sndCustTalk1;
 				break;

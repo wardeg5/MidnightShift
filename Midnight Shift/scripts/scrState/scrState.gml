@@ -48,6 +48,12 @@ function stateChange(){
 			
 			global.nextState = "";
 			global.curState = "cust2";
+			
+			customerEnter();
+			
+			createTextBox("cust2");
+			setCustomerItemList(2);
+			
 		
 			break;	
 			
@@ -55,6 +61,7 @@ function stateChange(){
 			
 			global.nextState = "";
 			global.curState = "rad3";
+			createTextBox("rad3");
 		
 			break;	
 			
@@ -62,6 +69,11 @@ function stateChange(){
 			
 			global.nextState = "";
 			global.curState = "cust3";
+			
+			customerEnter();
+			
+			createTextBox("cust3");
+			setCustomerItemList(3);
 		
 			break;	
 			
@@ -69,6 +81,7 @@ function stateChange(){
 			
 			global.nextState = "";
 			global.curState = "rad4";
+			createTextBox("rad4");
 		
 			break;	
 			
@@ -76,13 +89,20 @@ function stateChange(){
 			
 			global.nextState = "";
 			global.curState = "cust4";
+			
+			customerEnter();
+			
+			createTextBox("cust4");
+			setCustomerItemList(4);
 		
 			break;	
 			
 		case("rad5"):
+			show_debug_message("RAD5");
 			
 			global.nextState = "";
 			global.curState = "rad5";
+			createTextBox("rad5");
 		
 			break;	
 			
@@ -90,13 +110,20 @@ function stateChange(){
 			
 			global.nextState = "";
 			global.curState = "cust5";
+			
+			customerEnter();
+			
+			createTextBox("cust5");
+			setCustomerItemList(5);
 		
 			break;	
 			
 		case("rad6"):
+			show_debug_message("RAD6");
 			
 			global.nextState = "";
 			global.curState = "rad6";
+			createTextBox("rad6");
 		
 			break;	
 			
@@ -104,6 +131,11 @@ function stateChange(){
 			
 			global.nextState = "";
 			global.curState = "cust6";
+			
+			customerEnter();
+			
+			createTextBox("cust6");
+			setCustomerItemList(6);
 		
 			break;	
 		

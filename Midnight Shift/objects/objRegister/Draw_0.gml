@@ -28,7 +28,7 @@ if(global.regIndex == 13){
 }
 
 
-if(!audio_is_playing(sndDoorChime) && !audio_is_playing(sndAMOut) && !audio_is_playing(sndAMIn) && !audio_is_playing(sndRadioOut) && !audio_is_playing(sndRadioIn) && global.curState != "rad1" && global.curState != "rad2" && global.curState != "rad3" && global.curState != "rad4" && global.curState != "rad5" && global.curState != "rad6"){
+if(!audio_is_playing(sndChaching) && !audio_is_playing(sndDoorChime) && !audio_is_playing(sndAMOut) && !audio_is_playing(sndAMIn) && !audio_is_playing(sndRadioOut) && !audio_is_playing(sndRadioIn) && global.curState != "rad1" && global.curState != "rad2" && global.curState != "rad3" && global.curState != "rad4" && global.curState != "rad5" && global.curState != "rad6"){
 
 	if(global.custItems[global.curItem] != -1){
 		draw_sprite_ext(global.itemSprite[global.custItems[global.curItem]],0,336,266,.5,.5,0,c_white,1);
