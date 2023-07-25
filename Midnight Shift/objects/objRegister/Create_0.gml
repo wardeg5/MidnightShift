@@ -17,6 +17,7 @@ global.custItems[7] = -1;
 
 global.showPriceBook = false;
 global.curItem = 0;
+global.canReg = false;
 
 
 total = "$";

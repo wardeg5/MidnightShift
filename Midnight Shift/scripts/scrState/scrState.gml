@@ -138,6 +138,11 @@ function stateChange(){
 			setCustomerItemList(6);
 		
 			break;	
+			
+		case("nuke"):
+		
+			room_goto(rNuke);
+			break;
 		
 	}
 }

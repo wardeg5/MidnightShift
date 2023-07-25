@@ -10,8 +10,8 @@ if(pressTimer != 0 && global.regIndex != 0){
 } 
 
 if(pressTimer == 0){
-	global.regIndex = 0
-	pressTimer	= 10
+	global.regIndex = 0;
+	pressTimer	= 10;
 }
 
 image_index = global.regIndex;

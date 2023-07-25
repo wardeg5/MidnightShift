@@ -4,7 +4,7 @@ function scrSetDefaultsForText(){
 	lineBreakNumber[pageNumber] = 0;
 	lineBreakOffset[pageNumber] = 0;
 	
-	tbSprite[pageNumber] = sTextBox3;
+	tbSprite[pageNumber] = stbAnsweringMachine;
 	speakerSprite[pageNumber] = noone;
 	speakerSide[pageNumber] = 1;
 	
@@ -27,9 +27,9 @@ function scrText(_text){
 		
 		switch(argument[1]){
 			case "rad":
-				//speakerSprite[pageNumber] = ;
+				speakerSprite[pageNumber] = sRadio;
 				
-				//tbSprite[pageNumber] = sTextBox2;
+				tbSprite[pageNumber] = stbRadio;
 				
 				voice[pageNumber] = sndCustTalk1;
 				break;
