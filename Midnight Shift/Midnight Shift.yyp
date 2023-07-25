@@ -83,6 +83,7 @@
     {"id":{"name":"sPriceBook","path":"sprites/sPriceBook/sPriceBook.yy",},},
     {"id":{"name":"rYouWon","path":"rooms/rYouWon/rYouWon.yy",},},
     {"id":{"name":"btnPeriod","path":"objects/btnPeriod/btnPeriod.yy",},},
+    {"id":{"name":"sTitleScreen","path":"sprites/sTitleScreen/sTitleScreen.yy",},},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
     {"id":{"name":"btnPlus","path":"objects/btnPlus/btnPlus.yy",},},
     {"id":{"name":"sToiletPaper","path":"sprites/sToiletPaper/sToiletPaper.yy",},},

@@ -7,7 +7,7 @@ opSpace = 24;
 opPos = 0;
 
 //start menu
-option[0, 0] = "Start Game";
+option[0, 0] = "Press Space";
 //option[0, 1] = "Settings";
 //option[0, 2] = "Quit Game";
 

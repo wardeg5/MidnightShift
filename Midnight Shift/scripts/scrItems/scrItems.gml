@@ -1,8 +1,9 @@
 
 function initItems(){
 	//UNCOMMENT THIS FOR RANDOM VALUES ON EACH PLAY THROUGH
-	//randomize(); 
-	show_debug_message("INIT ITEMS");
+	randomize(); 
+	
+	//show_debug_message("INIT ITEMS");
 	
 	global.itemName[0] = "Bologna";
 	global.itemName[1] = "Cigs";
@@ -98,6 +99,33 @@ function registerError(){
 	//will have to be 13
 	global.regIndex = 13;	
 	global.screen = "$";
+	
+	switch(global.curState){
+		case("cust1"):
+			createTextBox("cust1 fuck up");
+			break;
+		case("cust2"):
+			createTextBox("cust2 fuck up");
+		
+			break;
+		case("cust3"):
+			createTextBox("cust3 fuck up");
+		
+			break;
+		case("cust4"):
+			createTextBox("cust4 fuck up");
+		
+			break;
+		case("cust5"):
+			createTextBox("cust5 fuck up");
+		
+			break;
+		case("cust6"):
+			createTextBox("cust6 fuck up");
+		
+			break;
+			
+	}
 	
 }
 

@@ -14,7 +14,7 @@ x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])/4 
 y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])/4 - height/2 + 64;//tut used 2
 
 //draw menu background
-draw_sprite_ext(sprite_index, image_index, x, y, width/sprite_width, height/sprite_height,0,c_white,1);
+//draw_sprite_ext(sMenu, image_index, x, y, width/sprite_width, height/sprite_height,0,c_white,1);
 
 // draw the options
 
@@ -28,6 +28,6 @@ for(var i = 0; i < opLength; i++){
 		_c = c_yellow;
 	}
 	
-	draw_text_color(x+opBorder, y+opBorder + opSpace*i, option[opLevel, i], _c, _c, _c, _c, 1);
+	draw_text_transformed_colour(x+opBorder - 18, y+opBorder + opSpace*i, option[opLevel, i],2,2,0, _c, _c, _c, _c, 1);
 	
 }

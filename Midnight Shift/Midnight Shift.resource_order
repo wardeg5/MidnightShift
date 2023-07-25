@@ -58,6 +58,7 @@
     {"name":"sPriceBook","order":9,"path":"sprites/sPriceBook/sPriceBook.yy",},
     {"name":"rYouWon","order":4,"path":"rooms/rYouWon/rYouWon.yy",},
     {"name":"btnPeriod","order":10,"path":"objects/btnPeriod/btnPeriod.yy",},
+    {"name":"sTitleScreen","order":2,"path":"sprites/sTitleScreen/sTitleScreen.yy",},
     {"name":"sArrow","order":6,"path":"sprites/sArrow/sArrow.yy",},
     {"name":"btnPlus","order":11,"path":"objects/btnPlus/btnPlus.yy",},
     {"name":"sToiletPaper","order":5,"path":"sprites/sToiletPaper/sToiletPaper.yy",},

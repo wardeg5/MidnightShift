@@ -2,9 +2,9 @@ depth = 4;
 
 
 //textbox parameters
-tbWidth = 320;
+tbWidth = 326;
 tbHeight = 48;
-tbBorder = 8;
+tbBorder = 10;
 lineSep = 16;
 lineWidth = tbWidth - tbBorder*2;
 
