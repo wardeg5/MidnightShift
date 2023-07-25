@@ -13,7 +13,7 @@ function scrGameText(_textId){
 			scrText("overtures to the US as Eastern Europe has become starved of oil due to","rad");
 			scrText("instability in the middle east, has led to paranoia among Soviet leadership","rad");
 			scrText("that this could be the end of the Eastern Bloc's system of alliances.","rad");
-			scrText("...");
+			scrText("...","rad");
 			
 			global.nextState = "idle";
 			

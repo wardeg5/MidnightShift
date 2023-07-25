@@ -29,7 +29,9 @@ if(acceptKey){
 			switch(opPos){
 				//start game
 				case 0:
+					audio_stop_all();
 					room_goto_next();
+					
 					break;
 				//settings
 				case 1:
